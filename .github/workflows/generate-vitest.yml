@@ -42,6 +42,6 @@ jobs:
 
       # Commit et push les tests générés, s'il y a eu des modifications de fichiers.
       - name: Commit generated tests
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "test(unit): generate Vitest tests"
